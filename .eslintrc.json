@@ -1,0 +1,24 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 2021,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "no-unused-vars": "off",
+        "jsx-a11y/img-redundant-alt": "off",
+        "no-const-assign": "off",
+        "jsx-a11y/anchor-is-valid": "off",
+        "react/prop-types": "off"
+    }
+}
